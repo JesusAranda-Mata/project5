@@ -8,6 +8,12 @@ addCount.addEventListener('click', incrementCounter);
 
 lowerCount.addEventListener('click', lowerCounter);
 
-function increamentCounter() {
-    
+function incrementCounter() {
+    count++;
+    counter.innerHTML = count;
+}
+
+function lowerCounter() {
+    count--;
+    counter.innerHTML = count;
 }
