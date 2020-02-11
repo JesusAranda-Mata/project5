@@ -13,14 +13,22 @@ body {
     border-image-repeat: none;
 }
 
+h1 {
+    margin-bottom: auto;
+    padding-top: 5.5rem;
+}
+
 .counter-box {
     flex: 0 0 70%;
-    text-align: center;
+    text-align:center;
     border: 3px solid gray;
-    padding:  2.5rem 6rem;
+    padding:  2rem 45rem 11rem;
+    45rem;
+    margin: 2rem;
     font-weight: bold;
     box-shadow: 3px 3px 10px 10px #d0d0d0;
     color: #d0d0d0;
+    position: absolute;
 }
 
 
@@ -28,6 +36,14 @@ body {
     font-size: 8rem;
     padding: 0 0 20px 0;
     
+}
+
+#btns {
+    align-items: center;
+    position:relative;
+    margin-top: auto;
+    margin-bottom: 40px;
+    margin-right:11rem
 }
 
 .btn {
@@ -40,6 +56,7 @@ body {
     box-shadow: 0px 5px #891623;
     outline: none;
     text-transform: capitalize;
+    font-weight: bold;
 }
 
 .btn:hover {
@@ -57,6 +74,6 @@ body {
 
 
 
-#word {
-    padding: 1rem;
-}
+
+
+
